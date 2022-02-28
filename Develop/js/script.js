@@ -36,9 +36,7 @@ $(document).ready(function () {
             }
         })
     }
-    
     schedule();
-    
     // Local storage for each schedule boxes.
     $("#hour8 .input").val(localStorage.getItem("hour8"));
     $("#hour9 .input").val(localStorage.getItem("hour9"));
